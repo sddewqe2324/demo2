@@ -1,6 +1,7 @@
 "use client";
 import { useFormik } from "formik";
 import { useRouter } from "next/router";
+import Layout from '@/componets/Layout';
 const Address = () => {
     const router = useRouter();
     // if (!("name" in item)) {
@@ -25,6 +26,7 @@ const Address = () => {
         },
     });
     return (
+      <Layout data={''}>
         <div>
             <div className="container-fluid p-3 header-container">
                 <div className="row header py-2">
@@ -311,6 +313,7 @@ const Address = () => {
                 </div>
             </div>
         </div>
+      </Layout>
     );
 };
 
