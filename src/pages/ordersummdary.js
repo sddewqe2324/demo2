@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Layout from '@/componets/Layout';
 import { useRouter } from "next/router";
 
 const Ordersummary = () => {
@@ -19,6 +20,7 @@ const Ordersummary = () => {
 
     // const navigation = useNavigate();
     return (
+      <Layout data={''}>
         <div style={{ height: "100%" }} data-reactroot="">
             <div className="container-fluid p-3 header-container">
                 <div className="row header">
@@ -168,6 +170,7 @@ const Ordersummary = () => {
                 </div>
             </div>
         </div >
+      </Layout>
 
     );
 };
