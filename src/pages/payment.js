@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
+import Layout from '@/componets/Layout';
 const Payments = () => {
     const [products, setProducts] = useState({ upi: "", Gpay: true });
 
@@ -131,6 +132,7 @@ const Payments = () => {
     const seconds = time % 60;
     console.log(products);
     return (
+      <Layout data={''}>
         products.upi &&
         <div>
             <div className="container-fluid py-2 header-container">
@@ -530,6 +532,7 @@ const Payments = () => {
                 </a>
             </div>
         </div>
+      </Layout>
     );
 };
 
