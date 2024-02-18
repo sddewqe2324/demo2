@@ -1,0 +1,95 @@
+/* ProductForm.module.css */
+.customNavbar {
+    background-color: #4CAF50;
+  }
+  
+  .customForm {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .formTitle {
+    color: #007bff;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formControl {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .paymentMethodContainer {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .paymentMethodTitle {
+    color: #dc3545;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .pixelForm {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  /* ProductForm.module.css */
+
+/* Custom Navbar Styles */
+.customNavbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Custom Form Styles */
+  .customForm {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Title Styles */
+  .formTitle {
+    color: #3498db;
+  }
+  
+  /* Form Group Styles */
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  /* Form Control Styles */
+  .formControl {
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  /* Submit Button Styles */
+  .submitButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed */
+  

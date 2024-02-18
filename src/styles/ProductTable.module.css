@@ -1,0 +1,92 @@
+/* ProductTable.module.css */
+
+/* Navbar styles */
+.customNavbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container styles */
+  .customContainer {
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  .header {
+    align-items: center;
+  }
+  
+  /* Upload button styles */
+  .uploadBtn {
+    margin-left: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add new button styles */
+  .addNewBtn {
+    margin-left: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Product table styles */
+  .productTable {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product table header styles */
+  .productTable thead {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Product table cell styles */
+  .productTable tbody td {
+    padding: 15px;
+  }
+  
+  /* Product image styles */
+  .productImage {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Action buttons styles */
+  .actionButtons {
+    align-items: center;
+  }
+  
+  /* Remove button styles */
+  .removeBtn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Edit button styles */
+  .editBtn {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Hover effect on buttons */
+  .actionButtons button:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
