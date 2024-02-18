@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { FaShare } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
+import Layout from '@/componets/Layout';
 
 function Productdetails() {
     const initialTime = 900; // 10 minutes in seconds
@@ -45,6 +46,7 @@ function Productdetails() {
     };
     const percentageOff = ((data1?.mrp - data1?.selling_price) / data1?.mrp) * 100;
     return (
+      <Layout data={''}>
         <div>
             <div className="_38U37R" style={{
                 backgroundColor: "#2874f0",
@@ -337,6 +339,7 @@ function Productdetails() {
                 </div>
             </div>
         </div>
+      </Layout>
     )
 }
 
