@@ -46,8 +46,14 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '923229855821294');
 fbq('track', 'PageView');
-` }} />
-            </Head>
+` }} />ˇ <script dangerouslySetInnerHTML={{ __html: `<!-- Google tag (gtag.js) -->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EZD8VK19R7')` }} />        
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZD8VK19R7"/>    </Head>
             {facebookPixelScript && (
                 <noscript
                     dangerouslySetInnerHTML={{
